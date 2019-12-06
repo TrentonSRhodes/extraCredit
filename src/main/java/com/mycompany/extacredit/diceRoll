@@ -1,0 +1,47 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.mycompany.extacredit;
+
+/**
+ *
+ * @author trent
+ */
+public class diceRoll {
+    public int dice1=(int)(Math.random()*6+1); 
+    private double rollOne;
+    private double rollTwo;
+
+    public diceRoll(double rollOne, double rollTwo) {
+        this.rollOne = rollOne;
+        this.rollTwo = rollTwo;
+        rollOne = 1;
+        rollTwo = 1;
+    }
+
+    public double getRollOne() {
+        return rollOne;
+    }
+
+    public void setRollOne(double rollOne) {
+        this.rollOne = rollOne;
+    }
+
+    public double getRollTwo() {
+        return rollTwo;
+    }
+
+    public void setRollTwo(double rollTwo) {
+        this.rollTwo = rollTwo;
+    }
+    public void randomizerstatic(int randRoll) {
+        randRoll =(int)(Math.random()*6) + 1;
+}
+    
+    
+    
+    
+    
+}
